@@ -26,6 +26,7 @@ public class ReqController extends ApplicationObjectSupport {
             Map<String,Object> responseData = callService(requestData);
             return responseData;
         }catch (Exception e){
+            logger.error("-----------doInvoke Exception>>>error",e);
             return ResponseBean.success(StatusEnum.SERVICE_DEAL_ERROR);
         }
     }
@@ -34,11 +35,14 @@ public class ReqController extends ApplicationObjectSupport {
         String service = requestData.getService();
         String method = requestData.getMethod();
         try {
+            logger.info("-----------callService发起服务请求{}",requestData.toString());
             Object classObject = getApplicationContext().getBean(service);
             Method classMethod = classObject.getClass().getMethod(method,new Class[]{Map.class});
             Object returnParam = classMethod.invoke(classObject,requestData.getParams());
+            logger.info("-----------callService请求成功返回{}",returnParam.toString());
             return (Map<String, Object>) returnParam;
         }catch (Exception e){
+            logger.error("-----------callService Exception>>>error",e);
             return ResponseBean.success(StatusEnum.SERVICE_DEAL_ERROR);
         }
 

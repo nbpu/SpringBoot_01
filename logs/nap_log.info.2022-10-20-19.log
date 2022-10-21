@@ -1,0 +1,54 @@
+2022-10-20 19:00:52,737 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 21484 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-20 19:00:52,743 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-20 19:00:52,850 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 19:00:52,856 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 19:00:53,878 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-20 19:00:55,100 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-20 19:00:55,118 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-20 19:00:55,119 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-20 19:00:55,120 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-20 19:00:55,237 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-20 19:00:55,238 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2382 ms
+2022-10-20 19:00:55,904 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - 解密后的username：root
+2022-10-20 19:00:55,904 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - 解密后的password：root
+2022-10-20 19:00:55,905 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-20 19:00:56,508 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-20 19:00:56,790 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-20 19:00:56,806 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-20 19:00:56,837 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-20 19:00:56,850 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 4.819 seconds (JVM running for 5.636)
+2022-10-20 19:02:11,509 [http-nio-8065-exec-1] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 19:02:11,510 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-20 19:02:11,536 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 25 ms
+2022-10-20 19:02:11,835 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 37 - callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-20 19:02:12,260 [http-nio-8065-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 1010 - {dataSource-1} inited
+2022-10-20 19:02:12,489 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 41 - callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-20 19:02:29,975 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 37 - callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo1', mapParams={Params={id=1}}}
+2022-10-20 19:04:29,526 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-20 19:04:29,527 [Thread-6] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-1} closing ...
+2022-10-20 19:04:29,534 [Thread-6] INFO  c.alibaba.druid.pool.DruidDataSource 2075 - {dataSource-1} closed
+2022-10-20 19:11:20,157 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 576 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-20 19:11:20,163 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-20 19:11:20,251 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 19:11:20,252 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 19:11:21,246 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-20 19:11:22,451 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-20 19:11:22,478 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-20 19:11:22,479 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-20 19:11:22,479 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-20 19:11:22,586 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-20 19:11:22,587 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2335 ms
+2022-10-20 19:11:23,303 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - 解密后的username：root
+2022-10-20 19:11:23,304 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - 解密后的password：root
+2022-10-20 19:11:23,305 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-20 19:11:23,850 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-20 19:11:24,164 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-20 19:11:24,185 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-20 19:11:24,223 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-20 19:11:24,238 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 4.762 seconds (JVM running for 5.592)
+2022-10-20 19:11:32,225 [http-nio-8065-exec-1] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 19:11:32,225 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-20 19:11:32,234 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 9 ms
+2022-10-20 19:11:32,349 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 38 - callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo1', mapParams={Params={id=1}}}
+2022-10-20 19:54:09,290 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-20 19:54:09,291 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-0} closing ...
