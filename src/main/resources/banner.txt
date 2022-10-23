@@ -22,3 +22,4 @@
 ////////////////////////////////////////////////////////////////////
 Spring Boot Version: ${spring-boot.version}
 Tomcat initialized with port(s):${server.port}
+context path:${server.servlet.context-path}

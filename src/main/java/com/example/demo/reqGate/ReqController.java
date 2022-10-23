@@ -2,6 +2,7 @@ package com.example.demo.reqGate;
 
 import com.example.demo.response.ResponseBean;
 import com.example.demo.response.StatusEnum;
+import com.example.demo.retention.Limit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.ApplicationObjectSupport;
@@ -12,12 +13,15 @@ import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @Controller
 public class ReqController extends ApplicationObjectSupport {
     private static Logger logger = LoggerFactory.getLogger(ReqController.class);
     @ResponseBody
     @PostMapping(value = "invoke/{service}/{method}")
+    //接口限流
+    @Limit(key = "limit2", permitsPerSecond = 1, timeout = 5, timeunit = TimeUnit.SECONDS,msg = "当前排队人数较多，请稍后再试！")
     public Map<String,Object> doInvoke(@PathVariable String service, @PathVariable String method, HttpServletRequest request , @RequestBody Map<String,Object> initParam){
         try {
             RequestData requestData = buildRequestData(initParam);

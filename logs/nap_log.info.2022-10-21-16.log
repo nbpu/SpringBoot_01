@@ -1,0 +1,102 @@
+2022-10-21 16:00:00,007 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 22 - 每30m执行一次:时间2022-10-21 16:00:00
+2022-10-21 16:12:31,047 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 16:12:31,048 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 16:12:31,048 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-1} closing ...
+2022-10-21 16:12:31,056 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2075 - {dataSource-1} closed
+2022-10-21 16:12:37,669 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 5528 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 16:12:37,674 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 16:12:37,784 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 16:12:37,785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 16:12:38,831 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 16:12:40,346 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 16:12:40,358 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-21 16:12:40,360 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 16:12:40,360 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 16:12:40,480 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 16:12:40,481 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2695 ms
+2022-10-21 16:12:41,160 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 16:12:41,161 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 16:12:41,162 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 16:12:41,524 [restartedMain] INFO  o.s.aop.framework.CglibAopProxy 262 - Unable to proxy interface-implementing method [public final void org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(org.springframework.context.ApplicationContext) throws org.springframework.beans.BeansException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-10-21 16:12:41,833 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 16:12:42,124 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 16:12:42,197 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 16:12:42,233 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-21 16:12:42,272 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 16:12:42,294 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.368 seconds (JVM running for 6.137)
+2022-10-21 16:12:48,664 [http-nio-8065-exec-2] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-21 16:12:48,665 [http-nio-8065-exec-2] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-21 16:12:48,700 [http-nio-8065-exec-2] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 34 ms
+2022-10-21 16:12:49,005 [http-nio-8065-exec-2] INFO  com.example.demo.retention.LimitAop 42 - 新建了令牌桶=limit2，容量=1.0
+2022-10-21 16:12:49,037 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:12:49,425 [http-nio-8065-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource 1010 - {dataSource-1} inited
+2022-10-21 16:12:50,088 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:12:51,691 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:12:51,697 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:12:52,773 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:12:52,781 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:12:53,716 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:12:53,720 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:24,170 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 16:16:24,171 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 16:16:24,172 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-1} closing ...
+2022-10-21 16:16:24,179 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2075 - {dataSource-1} closed
+2022-10-21 16:16:30,510 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 21876 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 16:16:30,517 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 16:16:30,644 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 16:16:30,645 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 16:16:31,669 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 16:16:33,222 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 16:16:33,250 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-21 16:16:33,251 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 16:16:33,252 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 16:16:33,354 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 16:16:33,354 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2709 ms
+2022-10-21 16:16:34,099 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 16:16:34,099 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 16:16:34,100 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 16:16:34,479 [restartedMain] INFO  o.s.aop.framework.CglibAopProxy 262 - Unable to proxy interface-implementing method [public final void org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(org.springframework.context.ApplicationContext) throws org.springframework.beans.BeansException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-10-21 16:16:34,773 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 16:16:35,158 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 16:16:35,239 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 16:16:35,264 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-21 16:16:35,319 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 16:16:35,338 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.571 seconds (JVM running for 6.392)
+2022-10-21 16:16:37,145 [http-nio-8065-exec-1] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-21 16:16:37,145 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-21 16:16:37,160 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 15 ms
+2022-10-21 16:16:37,311 [http-nio-8065-exec-1] INFO  com.example.demo.retention.LimitAop 42 - 新建了令牌桶=limit2，容量=1.0
+2022-10-21 16:16:37,330 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:37,484 [http-nio-8065-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 1010 - {dataSource-1} inited
+2022-10-21 16:16:37,750 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:38,872 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:38,877 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:40,177 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:40,183 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:41,324 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:41,328 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:41,739 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:41,745 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:42,330 [http-nio-8065-exec-7] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:42,335 [http-nio-8065-exec-7] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:43,324 [http-nio-8065-exec-8] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:43,329 [http-nio-8065-exec-8] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:44,325 [http-nio-8065-exec-9] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:44,333 [http-nio-8065-exec-9] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:45,351 [http-nio-8065-exec-10] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:45,357 [http-nio-8065-exec-10] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:46,325 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:46,330 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:47,324 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:47,328 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:48,325 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:48,330 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:49,325 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:49,328 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:16:50,325 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 16:16:50,330 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 16:30:00,013 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 22 - 每30m执行一次:时间2022-10-21 16:30:00
+2022-10-21 16:32:40,606 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 16:32:40,607 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 16:32:40,607 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-1} closing ...
+2022-10-21 16:32:40,613 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2075 - {dataSource-1} closed

@@ -17,7 +17,7 @@ public class QueryInfoServiceImpl implements QueryInfoService {
 
     @Override
     public Map<String, Object> queryInfo(Map<String, Object> params) {
-//        String id = "1";
+        //传入参数
         String id = (String) params.get("id");
         String roleName = queryInfoDao.queryRoleName(id);
         return ResponseBean.success(roleName);
