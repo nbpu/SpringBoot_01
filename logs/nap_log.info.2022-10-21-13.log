@@ -1,0 +1,2 @@
+2022-10-21 13:00:00,013 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 18 - 每30m执行一次:时间2022-10-21 13:00:00
+2022-10-21 13:30:00,010 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 18 - 每30m执行一次:时间2022-10-21 13:30:00

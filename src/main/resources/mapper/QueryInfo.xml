@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.queryInfo.service.dao.QueryInfoDao">
+    <resultMap id="queryInfo" type="com.example.demo.queryInfo.service.entity.QueryInfo">
+        <result property="id" column="id"/>
+        <result property="roleName" column="role_name"/>
+    </resultMap>
+    <select id="queryRoleName" parameterType="java.lang.String" resultType="java.lang.String">
+        select role_name from acl_role where  id = #{id} limit 1
+    </select>
+</mapper>

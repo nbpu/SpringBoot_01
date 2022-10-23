@@ -1,0 +1,217 @@
+2022-10-21 15:00:00,008 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 18 - 每30m执行一次:时间2022-10-21 15:00:00
+2022-10-21 15:06:53,744 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 15:06:53,748 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:06:53,749 [Thread-6] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-0} closing ...
+2022-10-21 15:07:34,933 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 15632 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 15:07:34,934 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 15:07:35,340 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2022-10-21 15:07:35,525 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 15:07:35,529 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 15:07:35,529 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 15:07:35,571 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 15:07:35,571 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 629 ms
+2022-10-21 15:07:35,662 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:07:35,829 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 15:07:35,852 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 15:07:35,869 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 15:07:35,881 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 1.062 seconds (JVM running for 13929.449)
+2022-10-21 15:07:35,894 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   MybatisAutoConfiguration#sqlSessionFactory matched:
+      - @ConditionalOnMissingBean (types: org.apache.ibatis.session.SqlSessionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MybatisAutoConfiguration#sqlSessionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.SqlSessionTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-10-21 15:07:41,803 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 15:07:41,804 [Thread-9] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-0} closing ...
+2022-10-21 15:07:41,806 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:07:42,005 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 15632 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 15:07:42,006 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 15:07:42,542 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 15:07:42,626 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 15:07:42,627 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 15:07:42,628 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 15:07:42,660 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 15:07:42,661 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 646 ms
+2022-10-21 15:07:42,709 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 15:07:42,710 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 15:07:42,710 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 15:07:42,930 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:07:43,010 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 15:07:43,046 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 15:07:43,075 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 15:07:43,085 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 1.142 seconds (JVM running for 13936.653)
+2022-10-21 15:07:43,092 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) found beans of type 'javax.sql.DataSource' mysqlInnetDataSource (OnBeanCondition)
+      Matched:
+         - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.PlatformTransactionManager' TransactionManager (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration:
+      Did not match:
+         - DevTools DataSource Condition did not find an auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+      Matched:
+         - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+
+   MybatisAutoConfiguration#sqlSessionFactory:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.apache.ibatis.session.SqlSessionFactory; SearchStrategy: all) found beans of type 'org.apache.ibatis.session.SqlSessionFactory' mysqlSqlSessionFactory (OnBeanCondition)
+
+   MybatisAutoConfiguration#sqlSessionTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.SqlSessionTemplate; SearchStrategy: all) found beans of type 'org.mybatis.spring.SqlSessionTemplate' mysqlSqlSessionTemplate (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-10-21 15:30:00,009 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 22 - 每30m执行一次:时间2022-10-21 15:30:00
+2022-10-21 15:54:51,299 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 15:54:51,301 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:54:51,302 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-0} closing ...
+2022-10-21 15:55:03,081 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 21672 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 15:55:03,087 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 15:55:03,202 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 15:55:03,202 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 15:55:04,413 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 15:55:05,932 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 15:55:05,956 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-21 15:55:05,956 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 15:55:05,956 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 15:55:06,066 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 15:55:06,066 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2863 ms
+2022-10-21 15:55:06,811 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 15:55:06,812 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 15:55:06,814 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 15:55:07,182 [restartedMain] INFO  o.s.aop.framework.CglibAopProxy 262 - Unable to proxy interface-implementing method [public final void org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(org.springframework.context.ApplicationContext) throws org.springframework.beans.BeansException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-10-21 15:55:07,466 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:55:07,782 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 15:55:07,857 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 15:55:07,886 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-21 15:55:07,937 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 15:55:07,961 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.633 seconds (JVM running for 6.483)
+2022-10-21 15:55:20,700 [http-nio-8065-exec-1] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-21 15:55:20,701 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-21 15:55:20,720 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 18 ms
+2022-10-21 15:55:20,841 [http-nio-8065-exec-1] INFO  com.example.demo.retention.LimitAop 46 - 新建了令牌桶=limit2，容量=1.0
+2022-10-21 15:55:20,854 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:55:21,011 [http-nio-8065-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 1010 - {dataSource-1} inited
+2022-10-21 15:55:21,263 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:55:22,779 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:55:22,784 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:55:23,904 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:55:23,910 [http-nio-8065-exec-5] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:55:24,765 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:55:24,769 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:56:04,812 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 15:56:04,813 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:56:04,813 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-1} closing ...
+2022-10-21 15:56:04,824 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2075 - {dataSource-1} closed
+2022-10-21 15:56:11,388 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 5360 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 15:56:11,394 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 15:56:11,499 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 15:56:11,499 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 15:56:12,491 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 15:56:13,952 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 15:56:13,972 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-21 15:56:13,973 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 15:56:13,973 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 15:56:14,104 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 15:56:14,105 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2606 ms
+2022-10-21 15:56:14,748 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 15:56:14,749 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 15:56:14,751 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 15:56:15,083 [restartedMain] INFO  o.s.aop.framework.CglibAopProxy 262 - Unable to proxy interface-implementing method [public final void org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(org.springframework.context.ApplicationContext) throws org.springframework.beans.BeansException] because it is marked as final: Consider using interface-based JDK proxies instead!
+2022-10-21 15:56:15,381 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 15:56:15,682 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 15:56:15,758 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 15:56:15,778 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-21 15:56:15,838 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 15:56:15,858 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.154 seconds (JVM running for 5.925)
+2022-10-21 15:56:23,083 [http-nio-8065-exec-1] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-21 15:56:23,084 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2022-10-21 15:56:23,099 [http-nio-8065-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 15 ms
+2022-10-21 15:56:23,201 [http-nio-8065-exec-1] INFO  com.example.demo.retention.LimitAop 46 - 新建了令牌桶=limit2，容量=1.0
+2022-10-21 15:56:23,208 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:56:23,354 [http-nio-8065-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource 1010 - {dataSource-1} inited
+2022-10-21 15:56:23,613 [http-nio-8065-exec-1] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:56:24,773 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:56:24,778 [http-nio-8065-exec-2] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:56:25,717 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:56:25,723 [http-nio-8065-exec-3] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:56:26,631 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:56:26,638 [http-nio-8065-exec-4] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}
+2022-10-21 15:56:27,423 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 42 - -----------callService发起服务请求RequestData{service='QueryInfoService', method='queryInfo', mapParams={Params={id=1}}}
+2022-10-21 15:56:27,429 [http-nio-8065-exec-6] INFO  c.example.demo.reqGate.ReqController 46 - -----------callService请求成功返回{result_msg=成功, result_data=普通管理员, result_code=200}

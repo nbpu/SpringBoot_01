@@ -1,0 +1,25 @@
+2022-10-21 11:00:00,011 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 18 - 每5s执行一次:时间2022-10-21 11:00:00
+2022-10-21 11:15:23,232 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'taskScheduler'
+2022-10-21 11:15:23,235 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-21 11:15:23,237 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource 2003 - {dataSource-0} closing ...
+2022-10-21 11:15:27,765 [restartedMain] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on LAPTOP-DJCAR0B4 with PID 15632 (C:\Users\punb\IdeaProjects\SpringBoot_01\target\classes started by punb in C:\Users\punb\IdeaProjects\SpringBoot_01)
+2022-10-21 11:15:27,777 [restartedMain] INFO  com.example.demo.DemoApplication 655 - The following profiles are active: myself
+2022-10-21 11:15:27,878 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-21 11:15:27,879 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-21 11:15:28,907 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.example.demo.*.dao]' package. Please check your configuration.
+2022-10-21 11:15:30,052 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8065 (http)
+2022-10-21 11:15:30,074 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8065"]
+2022-10-21 11:15:30,075 [restartedMain] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2022-10-21 11:15:30,076 [restartedMain] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-10-21 11:15:30,208 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/nap] 173 - Initializing Spring embedded WebApplicationContext
+2022-10-21 11:15:30,208 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2329 ms
+2022-10-21 11:15:30,891 [restartedMain] INFO  c.e.d.d.DataSourceConfig 36 - -----------解密后的username：root
+2022-10-21 11:15:30,892 [restartedMain] INFO  c.e.d.d.DataSourceConfig 37 - -----------解密后的password：root
+2022-10-21 11:15:30,894 [restartedMain] INFO  c.e.d.d.DataSourceConfig 42 - -----------创建数据源成功
+2022-10-21 11:15:31,345 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-21 11:15:31,542 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'taskScheduler'
+2022-10-21 11:15:31,589 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2022-10-21 11:15:31,603 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8065"]
+2022-10-21 11:15:31,632 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 - Tomcat started on port(s): 8065 (http) with context path '/nap'
+2022-10-21 11:15:31,649 [restartedMain] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 4.562 seconds (JVM running for 5.217)
+2022-10-21 11:30:00,003 [scheduling-1] INFO  c.e.demo.batchBussiness.BatchView 18 - 每30m执行一次:时间2022-10-21 11:30:00

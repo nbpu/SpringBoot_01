@@ -1,1 +1,14 @@
 com\example\demo\DemoApplication.class
+com\example\demo\response\ResponseBean.class
+com\example\demo\utils\Keys.class
+com\example\demo\dataSourceConfig\DataSourceConfig.class
+com\example\demo\dataSourceConfig\DataSourceProperties.class
+com\example\demo\queryInfo\service\Impl\QueryInfoServiceImpl.class
+com\example\demo\response\StatusEnum.class
+com\example\demo\queryInfo\service\QueryInfoService.class
+com\example\demo\utils\EncryptAndDecryptStr.class
+com\example\demo\queryInfo\service\entity\QueryInfo.class
+com\example\demo\reqGate\ReqController.class
+com\example\demo\batchBussiness\BatchView.class
+com\example\demo\reqGate\RequestData.class
+com\example\demo\queryInfo\service\dao\QueryInfoDao.class
